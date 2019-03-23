@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby -W
 
+GOLDEN_DIR = 'golden'.freeze
 RESPONSES_DIR = 'responses'.freeze
+
+LANGUAGES = { javascript: :js, python: :py, ruby: :rb}.freeze
 
 TEST_IDS = [
   ['EC4GJT-SMK', :Platypus],
@@ -46,14 +49,21 @@ TEST_TYPES = {
   Hyrax: [2, 3, 5],
 }.freeze
 
-def directory(test_id)
-  File.join(File.expand_path(File.dirname(__FILE__)), RESPONSES_DIR, test_id)
+def current_dir
+  File.expand_path(File.dirname(__FILE__))
 end
 
-def make_directory(test_id)
-  dir = directory(test_id)
-  puts "Making directory: #{dir}"
-  Dir.mkdir(directory(test_id))
+def responses_directory(test_id)
+  File.join(current_dir, RESPONSES_DIR, test_id)
+end
+
+def golden_directory(language)
+  File.join(current_dir, GOLDEN_DIR, language.to_s)
+end
+
+def make_directory(path)
+  puts "Making directory: #{path}"
+  Dir.mkdir(path)
   true
 rescue StandardError
   false
@@ -64,7 +74,7 @@ def touch(path)
 end
 
 def make_files(test_id, test_type)
-  dir = directory(test_id)
+  dir = responses_directory(test_id)
   puts "Touching file: #{File.join(dir, 'Feedback.md')}"
   touch File.join(dir, 'Feedback.md')
   TEST_TYPES[test_type].each do |task_id|
@@ -74,5 +84,15 @@ def make_files(test_id, test_type)
 end
 
 TEST_IDS.each do |(test_id, test_type)|
-  make_files(test_id, test_type) if make_directory(test_id)
+  make_files(test_id, test_type) if make_directory(responses_directory(test_id))
+end
+
+LANGUAGES.keys.each do |language|
+  make_directory(golden_directory(language))
+end
+
+TASKS.each do |_, name|
+  LANGUAGES.each do |language, extension|
+    touch File.join(golden_directory(language), "#{name}.#{extension}")
+  end
 end
