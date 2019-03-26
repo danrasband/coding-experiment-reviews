@@ -27,6 +27,14 @@ TEST_IDS = [
   ['UZRFMM-MY2', :Cassowary],
   ['EYG9HU-UHB', :Wombat],
   ['5PC7A3-VTC', :Platypus],
+  ['9659ZU-ATX', :Saiga],
+  ['4T59SN-Z8Q', :Cassowary],
+  ['HKFE5Y-QSM', :Wombat],
+  ['WFYFRM-9QS', :Platypus],
+  ['3BHRPM-TK9', :Saiga],
+  ['JZBZF7-KNE', :Cassowary],
+  ['YXVDK8-JB4', :Wombat],
+  ['CAXZU5-45T', :Platypus],
 ].freeze
 
 TASKS = {
