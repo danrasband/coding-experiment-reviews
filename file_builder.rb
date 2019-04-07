@@ -6,6 +6,7 @@ RESPONSES_DIR = 'responses'.freeze
 LANGUAGES = { javascript: :js, python: :py, ruby: :rb}.freeze
 
 TEST_IDS = [
+  # Week 1
   ['EC4GJT-SMK', :Platypus],
   ['9Z5UDF-ZEP', :Saiga],
   ['JQHT63-A6A', :Cassowary],
@@ -35,6 +36,34 @@ TEST_IDS = [
   ['JZBZF7-KNE', :Cassowary],
   ['YXVDK8-JB4', :Wombat],
   ['CAXZU5-45T', :Platypus],
+
+  # Week 2
+  ['84QT7P-GSC', :Pangolin],
+  ['T6CZBD-HJB', :Okapi],
+  ['4BENHU-NUN', :Armadillo],
+  ['M7BJS4-GTC', :Hyrax],
+  ['79Z4TZ-8CG', :Pangolin],
+  ['NYCS8Y-58S', :Okapi],
+  ['A9KJ7K-GQ8', :Hyrax],
+  ['DPCKN2-NF5', :Pangolin],
+  ['G5F2NU-A3A', :Okapi],
+  ['SJ7QK6-R4F', :Pangolin],
+  ['WT4TZR-B3R', :Armadillo],
+  ['SDXU35-KKU', :Hyrax],
+  ['Z9S2T8-8XQ', :Pangolin],
+  ['4N53A7-Z4R', :Okapi],
+  ['AUS97P-NM9', :Armadillo],
+  ['DAV4WW-BA8', :Hyrax],
+  ['7A2QDT-RKD', :Pangolin],
+  ['N7WCXZ-Y9Y', :Okapi],
+  ['BWJ4RW-5Q8', :Armadillo],
+  ['YJEH95-JPQ', :Hyrax],
+  ['GPAUWQ-R8E', :Pangolin],
+  ['FP3ANE-JEK', :Okapi],
+  ['P535GE-KY8', :Armadillo],
+  ['TK75Q6-7YJ', :Hyrax],
+  ['4PCCCA-397', :Pangolin],
+  ['QFB7HE-A7D', :Armadillo],
 ].freeze
 
 TASKS = {
