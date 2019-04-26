@@ -36,8 +36,8 @@ rescue
   ['', 'py']
 end
 
-def write_code(test_id, task_name, language_ext, code)
-  filename = 'responses/%s/%s.%s' % [test_id, task_name, language_ext]
+def write_code(test_id, task_name, task_index, language_ext, code)
+  filename = 'responses/%s/%d_%s.%s' % [test_id, task_index, task_name, language_ext]
   puts "Writing code to #{filename}"
 
   File.open(filename, 'w') do |fh|
@@ -49,6 +49,6 @@ TEST_IDS.each do |test_id, test_type|
   TEST_CONFIGS[test_type].each_with_index do |task_id, i|
     task_name = TASKS[task_id]
     code, language_ext = extract_code(test_id, task_name, i + 1)
-    write_code(test_id, task_name, language_ext, code)
+    write_code(test_id, task_name, i + 1, language_ext, code)
   end
 end
