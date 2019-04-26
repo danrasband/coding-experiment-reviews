@@ -4,7 +4,7 @@
 def solution(A):
     if not len(A):
         return ""
-
+    
     tmp = []
     for item in A[1:]:
         first = A[0]
@@ -14,7 +14,9 @@ def solution(A):
                 break
             else:
                 first = first[:-1]
-
-
+                
+    
     if tmp == []:
         return ""
+    
+        

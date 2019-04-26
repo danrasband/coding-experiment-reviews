@@ -11,5 +11,5 @@ def solution(S):
             output -= int(element[1:])
         elif len(element) == 1:
             output += int(element)
-
+        
     return output

@@ -24,14 +24,16 @@ def solution(X,B):
                 if a> ans:
                     ans =a
             B=B[ind+1:]
-
+    
         except:
-
+            
             if len(B)>=X:
-                a = max_pro(B,X)
+                a = max_pro(B,X) 
                 if a> ans:
                     ans=a
             B=[]
 
 
     return ans
+
+        

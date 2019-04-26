@@ -7,3 +7,4 @@ def solution(S):
     for i in x:
         y += int(i)
     return (y)
+

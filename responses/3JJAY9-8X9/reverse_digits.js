@@ -11,7 +11,7 @@ function solution(x) {
     var tmp = parseInt(solution);
     if(stringX[0]=='-'){
         return 0-tmp;
-    }
+    } 
     else{
         return tmp;
     }

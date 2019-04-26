@@ -14,3 +14,4 @@ def solution(A):
         else:
             pass
     return count
+    

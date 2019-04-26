@@ -12,5 +12,5 @@ def solution(X):
         dig=X%10
         rev=rev*10+dig
         X=X//10
-
+    
     return rev * neg

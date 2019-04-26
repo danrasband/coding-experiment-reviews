@@ -20,5 +20,5 @@ function solution(A) {
     else{
         return 0;
     }
-
+    
 }

@@ -3,7 +3,7 @@
 
 def solution(A):
     number_of_items = len(A)
-
+    
     if number_of_items > 0:
         max_item = max(A)
         count_item = A.count(max_item)

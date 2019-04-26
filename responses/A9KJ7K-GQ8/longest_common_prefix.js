@@ -8,11 +8,11 @@ function solution(A) {
     let reducer = (acc, val) => {
         return acc && val.startsWith(prefix)
     }
-
+    
     while (!done) {
         prefix += A[0][pos];
         if (A.reduce(reducer, prefix)) {
-            pos += 1;
+            pos += 1;   
         }
         else {
             prefix = prefix.substring(0, prefix.length - 1);

@@ -3,3 +3,4 @@
 
 def solution(A):
     return A.count(max(A))
+    

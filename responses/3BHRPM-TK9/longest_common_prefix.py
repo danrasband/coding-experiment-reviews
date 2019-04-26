@@ -4,3 +4,4 @@ import os
 def solution(A):
     # write your code in Python
     return os.path.commonprefix(A)
+    

@@ -11,5 +11,5 @@ def solution(A):
     for word in A:
         for idx in len(word):
             if
-
+        
     pass

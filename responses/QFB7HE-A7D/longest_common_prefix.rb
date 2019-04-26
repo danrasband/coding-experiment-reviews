@@ -7,11 +7,11 @@ def solution(a)
     i = 0
     while i < item.length
       matched = 0
-
+      
       a.each do |string|
         matched += 1 if string.include?(str)
       end
-
+      
       if matched == a.length && i > 0
         str += item[i-1]
       else

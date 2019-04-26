@@ -7,5 +7,5 @@ def solution(S):
     sumVal = 0
     for strVal in splitList:
         sumVal += int(strVal)
-
+    
     return sumVal

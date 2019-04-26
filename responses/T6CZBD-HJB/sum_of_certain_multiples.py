@@ -7,7 +7,7 @@ def solution(x):
     # print(multiples_3)
     multiples_5 = [x for x in integers if x%5 == 0]
     # print(multiples_5)
-    to_remove = [x for x in multiples_3 if x in multiples_5]
+    to_remove = [x for x in multiples_3 if x in multiples_5] 
     print(to_remove)
     # print(type(to_remove))
     multiples_3.extend(multiples_5)
@@ -20,5 +20,6 @@ def solution(x):
             print(x)
             if multiples_3[x] in to_remove:
                 multiples_3.pop(x)
-
+    
     return output
+    

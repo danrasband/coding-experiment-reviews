@@ -8,5 +8,5 @@ def solution(X, B):
         prod = 0
     else :
         max_B = max(B)
-
+        
     pass

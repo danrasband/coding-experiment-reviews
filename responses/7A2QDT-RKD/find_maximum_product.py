@@ -13,3 +13,4 @@ def solution(X, B):
             if B[i] > B[i-X]:
                 max_prod = max_prod/B[i-X]*B[i]
         return int(max_prod)
+                

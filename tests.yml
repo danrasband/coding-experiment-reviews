@@ -1,0 +1,127 @@
+---
+tasks:
+  count_of_largest_integer: 1
+  sum_of_integers_in_a_string: 2
+  sum_of_certain_multiples: 3
+  reverse_digits: 4
+  longest_common_prefix: 5
+  find_maximum_product: 6
+test_configs:
+  Platypus: [1, 3, 5]
+  Wombat: [1, 4, 6]
+  Saiga: [1, 4, 5]
+  Cassowary: [1, 3, 6]
+  Pangolin: [2, 4, 6]
+  Okapi: [2, 3, 6]
+  Armadillo: [2, 4, 5]
+  Hyrax: [2, 3, 5]
+test_ids:
+  ENS7D8-DXV: Pangolin
+  EC4GJT-SMK: Platypus
+  A5QMTE-D2P: Okapi
+  9Z5UDF-ZEP: Saiga
+  WTC3DJ-RJK: Armadillo
+  JQHT63-A6A: Cassowary
+  HFJPHB-FJN: Hyrax
+  RVM3S9-UP8: Wombat
+  9CKBRD-ZZ8: Pangolin
+  X352JA-RZM: Platypus
+  FUGCYF-WMS: Okapi
+  58NJ7Z-URN: Saiga
+  AYKGXB-JEQ: Armadillo
+  5AV2J9-5BS: Cassowary
+  VWDVV4-W6X: Hyrax
+  KT623X-42Q: Wombat
+  ATGH7Q-N52: Pangolin
+  MG7RGD-9R7: Platypus
+  8G8FTA-CNP: Okapi
+  HH4HT2-UZB: Saiga
+  QQFC4D-M62: Armadillo
+  YMFFGM-A3Q: Cassowary
+  VC5D8H-H53: Hyrax
+  REK6D7-DGH: Wombat
+  7RXR64-7DZ: Pangolin
+  Q3A2XR-3VW: Platypus
+  QCWCCR-7UU: Okapi
+  KSJC4D-8CY: Saiga
+  ASNVD5-TFY: Armadillo
+  PKEQCM-UXF: Cassowary
+  ZJBAVP-GPH: Hyrax
+  ZTZQGJ-MQQ: Wombat
+  W3PT58-PJ8: Pangolin
+  8QRTD9-GGS: Platypus
+  MMYQHP-QEE: Okapi
+  3JJAY9-8X9: Saiga
+  YJ7PGK-HKS: Armadillo
+  UZRFMM-MY2: Cassowary
+  TE35KB-FDA: Hyrax
+  EYG9HU-UHB: Wombat
+  9SNKCW-X7G: Pangolin
+  5PC7A3-VTC: Platypus
+  S8MADQ-BEC: Okapi
+  9659ZU-ATX: Saiga
+  HXBHHF-BFH: Armadillo
+  4T59SN-Z8Q: Cassowary
+  9T3V68-NFA: Hyrax
+  HKFE5Y-QSM: Wombat
+  2K4H9G-4WR: Pangolin
+  WFYFRM-9QS: Platypus
+  6SA5BZ-WX3: Okapi
+  3BHRPM-TK9: Saiga
+  H3G23A-8H4: Armadillo
+  JZBZF7-KNE: Cassowary
+  TVA793-Q66: Hyrax
+  YXVDK8-JB4: Wombat
+  4BKEYC-5TY: Pangolin
+  CAXZU5-45T: Platypus
+  WPJ3CB-XN8: Armadillo
+  84QT7P-GSC: Pangolin
+  AEEQEN-J2J: Platypus
+  T6CZBD-HJB: Okapi
+  3V4X72-YRF: Saiga
+  4BENHU-NUN: Armadillo
+  K3H7Q3-DPP: Cassowary
+  M7BJS4-GTC: Hyrax
+  MMVQP9-WAB: Wombat
+  79Z4TZ-8CG: Pangolin
+  NYCS8Y-58S: Okapi
+  A9KJ7K-GQ8: Hyrax
+  VBF38S-2X2: Wombat
+  DPCKN2-NF5: Pangolin
+  D2DG2E-DQZ: Platypus
+  G5F2NU-A3A: Okapi
+  YTCUQF-XM4: Saiga
+  SJ7QK6-R4F: Pangolin
+  NKH74F-92U: Platypus
+  EQSVXR-C6T: Saiga
+  WT4TZR-B3R: Armadillo
+  2K4AFV-GUZ: Cassowary
+  SDXU35-KKU: Hyrax
+  YTT5DJ-9VR: Wombat
+  Z9S2T8-8XQ: Pangolin
+  PYANN7-CD4: Platypus
+  4N53A7-Z4R: Okapi
+  MKQGAM-AWS: Saiga
+  AUS97P-NM9: Armadillo
+  T29ST8-F4Q: Cassowary
+  DAV4WW-BA8: Hyrax
+  BKP9YU-CS7: Wombat
+  7A2QDT-RKD: Pangolin
+  WWXV4C-88K: Platypus
+  N7WCXZ-Y9Y: Okapi
+  Y3VKJF-D4A: Saiga
+  BWJ4RW-5Q8: Armadillo
+  VHXJN9-52D: Cassowary
+  YJEH95-JPQ: Hyrax
+  A7RBNH-YZF: Wombat
+  GPAUWQ-R8E: Pangolin
+  2ZU89B-9VF: Platypus
+  FP3ANE-JEK: Okapi
+  ZUJBHC-KBZ: Saiga
+  P535GE-KY8: Armadillo
+  YKCXJ5-UKX: Cassowary
+  TK75Q6-7YJ: Hyrax
+  5U6H43-FGP: Wombat
+  4PCCCA-397: Pangolin
+  QGW2JY-6X9: Platypus
+  QFB7HE-A7D: Armadillo

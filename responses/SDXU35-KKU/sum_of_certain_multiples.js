@@ -5,7 +5,7 @@ const sum = (val, next) => val + next;
 
 function solution(x) {
     let numbers = [];
-
+    
     for (let i=1; i < x; i++) {
         if (i % 3 === 0) {
             if (i % 5 !== 0) {
@@ -15,6 +15,6 @@ function solution(x) {
             numbers.push(i);
         }
     }
-
+    
     return numbers.reduce(sum);
 }

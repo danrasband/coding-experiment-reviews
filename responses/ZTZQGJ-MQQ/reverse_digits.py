@@ -11,7 +11,7 @@ def solution(X):
         digits.append(X%10)
         X=int(X/10)
 
-
+    
     ret = 0
     for i in range(len(digits)):
         ret*=10

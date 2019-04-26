@@ -7,12 +7,13 @@ def solution(X, B):
     else:
         #sort the array in desc order
         B.sort(reverse=True)
-
+        
         prod = 1
         for index,intVal in enumerate(B):
             if index <= X -1:
                 prod = prod * intVal
             else:
                 break
-
+            
         return prod
+    

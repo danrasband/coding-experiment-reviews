@@ -4,10 +4,10 @@
 def solution(X, B):
     sorted_b = sorted(B)
     nums = sorted_b[-X:]
-
+    
     result = 1
-
+    
     for num in nums:
         result = result * num
-
+    
     return result

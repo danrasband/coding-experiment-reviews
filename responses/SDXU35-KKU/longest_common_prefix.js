@@ -20,6 +20,6 @@ function solution(A) {
             break;
         }
     }
-
+    
     return prefix;
 }

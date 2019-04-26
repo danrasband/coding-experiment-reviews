@@ -2,7 +2,7 @@
 # print("this is a debug message")
 
 def solution(X):
-
+    
     strVal = str(X)
     strLen = len(strVal)
     finalStr = ""
@@ -10,7 +10,7 @@ def solution(X):
     for index, oneStr in enumerate(strVal):
         if oneStr == "-":
             firstTagisNegative = True
-            continue
+            continue            
         elif (index == strLen - 1) & (oneStr == "0"):
             continue
         else:
@@ -18,6 +18,10 @@ def solution(X):
     if firstTagisNegative is True:
         finalStr = "-"+finalStr
     finalInt = int(finalStr)
-
+    
     return finalInt
 
+
+    
+    
+    

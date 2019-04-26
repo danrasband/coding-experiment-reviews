@@ -3,7 +3,7 @@
 
 def solution(X):
     X = str(X)
-
+    
     if '-' in X:
         X = X.replace('-', '')
         X = X[::-1]
@@ -11,5 +11,5 @@ def solution(X):
     else:
         X = X[::-1]
         X = X
-
+        
     return int(X)

@@ -9,5 +9,5 @@ def solution(A):
             num_dict[ele] = 1
         else:
             num_dict[ele] += 1
-
+    
     return num_dict[max(num_dict.keys())]

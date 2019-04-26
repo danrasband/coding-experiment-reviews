@@ -7,15 +7,15 @@ def solution(A):
         return ""
     if len(A) == 1:
         return A[0]
-
+    
     A = sorted(A, key= len)
-
+    
     res = 0
-
+    
     for i in range(len(A[0])):
         for ele in A:
             if ele[i] != A[0][i]:
                 return A[0][:res]
         res += 1
-
+    
     return A[0][:res]

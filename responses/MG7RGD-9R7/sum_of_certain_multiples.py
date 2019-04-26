@@ -3,7 +3,7 @@
 
 def solution(x):
     # write your code in Python
-
+    
     if x%3==0:
         m3 = x//3-1
     else:
@@ -16,11 +16,11 @@ def solution(x):
         m15 = x//15-1
     else:
         m15 = x//15
-
+    
     sum3 = (3+3*m3)*m3/2
     sum5 = (5+5*m5)*m5/2
     sum15 = (15+15*m15)*m15/2
-
+    
     return int(sum3+sum5-2*m15)
-
+    
     pass

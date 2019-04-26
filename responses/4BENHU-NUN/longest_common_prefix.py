@@ -3,5 +3,5 @@
 
 def solution(A):
     # sort list alphabetically
-    # truncate all at 5 and place in a set to get unique.
-    # dictionary to tally. for those with
+    # truncate all at 5 and place in a set to get unique. 
+    # dictionary to tally. for those with 

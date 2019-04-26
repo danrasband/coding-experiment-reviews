@@ -14,5 +14,5 @@ def solution(A):
             maxnum = A[i+1]
             maxcount = 1
     return maxcount
-
+    
     pass

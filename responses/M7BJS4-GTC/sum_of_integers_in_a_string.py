@@ -4,7 +4,7 @@
 def solution(S):
     # write your code in Python
     int_list = S.split(",")
-    sum = 0
+    sum = 0 
     for elem in int_list:
         sum += int(elem)
     return sum

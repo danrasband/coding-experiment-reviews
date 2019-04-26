@@ -6,3 +6,4 @@ def solution(A):
     for word in A:
         chars = [char for char in word]
         res.push(chars)
+        

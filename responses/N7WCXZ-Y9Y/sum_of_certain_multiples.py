@@ -6,5 +6,5 @@ def solution(x):
     sum1 = sum(range(0,x,3))
     sum2 = sum(range(0,x,5))
     sum3 = sum(range(0,x,15))
-
+    
     return sum1 + sum2 -sum3

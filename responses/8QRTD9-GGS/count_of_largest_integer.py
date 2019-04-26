@@ -6,7 +6,7 @@ def solution(A):
     N = []
     N_1 = N
     counter = 0
-
+    
     for i in range(0,len(N)):
         for j in range(0,len(N_1)):
             if N[i] == N_1[j]:

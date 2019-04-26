@@ -20,3 +20,4 @@ def solution(x):
             endSet = bothSet - minusSet # remove multiples of both
             endSum = sum(endSet)
             return endSum
+            

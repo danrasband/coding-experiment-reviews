@@ -4,9 +4,9 @@
 def solution(x):
     # write your code in Python
     N = []
-
+    
     sum = 0
-
+    
     for i in range(len(N)):
         if N[i] < x:
             num= N[i]

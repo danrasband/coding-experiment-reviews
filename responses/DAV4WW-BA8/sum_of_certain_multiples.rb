@@ -7,8 +7,8 @@ class Fixnum
   end
 
   def is_not_divisible_by(n)
-    !is_divisible_by(n)
-  end
+    !is_divisible_by(n)    
+  end  
 end
 
 

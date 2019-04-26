@@ -7,5 +7,5 @@ def solution(x):
     for ele in range(x):
        if ele % 3 == 0 or ele % 5 == 0 and ele % 15 != 0:
            res += ele
-
+    
     return res

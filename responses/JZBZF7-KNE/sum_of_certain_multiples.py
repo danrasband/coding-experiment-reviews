@@ -15,5 +15,5 @@ def solution(x):
             continue
         else:
             sum_set.add(i * 5)
-
+        
     return sum(sum_set)

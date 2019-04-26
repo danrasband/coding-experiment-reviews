@@ -11,8 +11,8 @@ function solution(A) {
             heightestNumber = A[i];
     }
     for(var j=0; j<A.length; j++){
-     if(A[j]==heightestNumber) count++;
+     if(A[j]==heightestNumber) count++;   
     }
-
+    
     return count;
 }

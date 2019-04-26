@@ -13,5 +13,5 @@ def solution(X, B):
             splits.append(B[i:i+X])
         for split in splits:
             result.append(sum(split))
-
+    
         return(max(result))

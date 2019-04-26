@@ -15,6 +15,6 @@ def solution(A):
         letter = A[0][i]
         for j in range(len(A)-1):
             if
-
-
+        
+    
     pass
