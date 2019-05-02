@@ -1,0 +1,13 @@
+Write a function:
+
+    function solution(X, B);
+
+that, given an integer X and a zero-indexed array B consisting of K integers, where 0 ≤ K ≤ 1000, returns an integer that is the maximum product of X consecutive integers in B. Return 0 if K = 0 or if X > K.
+
+Example 1:
+Inputs: 1, [1,2,3]
+Output: 3
+
+Example 2:
+Inputs: 2, [1, 2, 3, 4]
+Output: 12

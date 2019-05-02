@@ -1,0 +1,13 @@
+Write a function:
+
+    function solution(A);
+
+that, given an array A of N 32-bit signed integers, where 0 ≤ N < 2^16, find the count of the highest integer. If N = 0, return 0.
+
+Example 1:
+Input: [1,5,3,5,1]
+Output: 2
+
+Example 2:
+Input: [-5,-4,-4,-32,-4]
+Output: 3
