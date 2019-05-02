@@ -2,7 +2,8 @@ Write a function:
 
     function solution(X);
 
-that, given an 32-bit integer X, returns a new integer that is a reverse of the digits of the first.
+that, given an 32-bit integer X, returns a new integer that is a reverse of the
+digits of the first.
 
 Example 1:
 Input: 123, Output: 321

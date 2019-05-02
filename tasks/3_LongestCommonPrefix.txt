@@ -2,7 +2,10 @@ Write a function:
 
     function solution(A);
 
-that, given an array A of zero or more strings of alphanumeric characters from 0 to 100 characters per string, not exceeding 1000 strings, returns the longest common prefix amongst its members. If there is no common prefix, return an empty string.
+that, given an array A of zero or more strings of alphanumeric characters from
+0 to 100 characters per string, not exceeding 1000 strings, returns the longest
+common prefix amongst its members. If there is no common prefix, return an empty
+string.
 
 Example 1:
 Input: ["flower","flow","flight"]

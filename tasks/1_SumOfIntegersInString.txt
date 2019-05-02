@@ -2,7 +2,8 @@ Write a function:
 
     function solution(S);
 
-that, given a comma-delimited string s of zero to 65,536 32-bit integers, returns their sum.
+that, given a comma-delimited string s of zero to 65,536 32-bit integers,
+returns their sum.
 
 Example 1:
 Input: "+1,0,-1"

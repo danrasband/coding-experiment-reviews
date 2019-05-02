@@ -2,7 +2,9 @@ Write a function:
 
     function solution(X);
 
-that, given a non-negative 32-bit integer x, finds all the positive integers less than that number that are multiples of 3 or 5, but not 3 and 5, then returns their sum.
+that, given a non-negative 32-bit integer x, finds all the positive integers
+less than that number that are multiples of 3 or 5, but not 3 and 5, then
+returns their sum.
 
 Example 1:
 Input: 10
