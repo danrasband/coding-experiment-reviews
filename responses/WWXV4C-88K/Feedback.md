@@ -1,9 +1,6 @@
 # Feedback
 
-## 1.
+This was auto-graded only, but here's some general feedback:
 
-## 2.
-
-## 3.
-
-
+Make sure you check for edge cases, like empty arrays and strings. Thanks for
+attempting the test!

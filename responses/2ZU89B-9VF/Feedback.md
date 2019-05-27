@@ -1,9 +1,7 @@
 # Feedback
 
-## 1.
+This was auto-graded only, but here's some general feedback:
 
-## 2.
+Make sure you check for the empty string case (and any other edge cases).
 
-## 3.
-
-
+Thanks for attempting these tasks. Nice work!
