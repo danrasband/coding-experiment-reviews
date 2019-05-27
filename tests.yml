@@ -7,121 +7,339 @@ tasks:
   longest_common_prefix: 5
   find_maximum_product: 6
 test_configs:
-  Platypus: [1, 3, 5]
-  Wombat: [1, 4, 6]
-  Saiga: [1, 4, 5]
-  Cassowary: [1, 3, 6]
-  Pangolin: [2, 4, 6]
-  Okapi: [2, 3, 6]
-  Armadillo: [2, 4, 5]
-  Hyrax: [2, 3, 5]
+  Platypus: [1, 3, 5, 2, 4, 6]
+  Wombat: [1, 4, 6, 2, 3, 5]
+  Saiga: [1, 4, 5, 2, 3, 6]
+  Cassowary: [1, 3, 6, 2, 4, 5]
+  Pangolin: [1, 3, 5, 2, 4, 6]
+  Okapi: [1, 4, 5, 2, 3, 6]
+  Armadillo: [1, 3, 6, 2, 4, 5]
+  Hyrax: [1, 4, 6, 2, 3, 5]
 test_ids:
-  ENS7D8-DXV: Pangolin
-  EC4GJT-SMK: Platypus
-  A5QMTE-D2P: Okapi
-  9Z5UDF-ZEP: Saiga
-  WTC3DJ-RJK: Armadillo
-  JQHT63-A6A: Cassowary
-  HFJPHB-FJN: Hyrax
-  RVM3S9-UP8: Wombat
-  9CKBRD-ZZ8: Pangolin
-  X352JA-RZM: Platypus
-  FUGCYF-WMS: Okapi
-  58NJ7Z-URN: Saiga
-  AYKGXB-JEQ: Armadillo
-  5AV2J9-5BS: Cassowary
-  VWDVV4-W6X: Hyrax
-  KT623X-42Q: Wombat
-  ATGH7Q-N52: Pangolin
-  MG7RGD-9R7: Platypus
-  8G8FTA-CNP: Okapi
-  HH4HT2-UZB: Saiga
-  QQFC4D-M62: Armadillo
-  YMFFGM-A3Q: Cassowary
-  VC5D8H-H53: Hyrax
-  REK6D7-DGH: Wombat
-  7RXR64-7DZ: Pangolin
-  Q3A2XR-3VW: Platypus
-  QCWCCR-7UU: Okapi
-  KSJC4D-8CY: Saiga
-  ASNVD5-TFY: Armadillo
-  PKEQCM-UXF: Cassowary
-  ZJBAVP-GPH: Hyrax
-  ZTZQGJ-MQQ: Wombat
-  W3PT58-PJ8: Pangolin
-  8QRTD9-GGS: Platypus
-  MMYQHP-QEE: Okapi
-  3JJAY9-8X9: Saiga
-  YJ7PGK-HKS: Armadillo
-  UZRFMM-MY2: Cassowary
-  TE35KB-FDA: Hyrax
-  EYG9HU-UHB: Wombat
-  9SNKCW-X7G: Pangolin
-  5PC7A3-VTC: Platypus
-  S8MADQ-BEC: Okapi
-  9659ZU-ATX: Saiga
-  HXBHHF-BFH: Armadillo
-  4T59SN-Z8Q: Cassowary
-  9T3V68-NFA: Hyrax
-  HKFE5Y-QSM: Wombat
-  2K4H9G-4WR: Pangolin
-  WFYFRM-9QS: Platypus
-  6SA5BZ-WX3: Okapi
-  3BHRPM-TK9: Saiga
-  H3G23A-8H4: Armadillo
-  JZBZF7-KNE: Cassowary
-  TVA793-Q66: Hyrax
-  YXVDK8-JB4: Wombat
-  4BKEYC-5TY: Pangolin
-  CAXZU5-45T: Platypus
-  WPJ3CB-XN8: Armadillo
-  84QT7P-GSC: Pangolin
-  AEEQEN-J2J: Platypus
-  T6CZBD-HJB: Okapi
-  3V4X72-YRF: Saiga
-  4BENHU-NUN: Armadillo
-  K3H7Q3-DPP: Cassowary
-  M7BJS4-GTC: Hyrax
-  MMVQP9-WAB: Wombat
-  79Z4TZ-8CG: Pangolin
-  NYCS8Y-58S: Okapi
-  A9KJ7K-GQ8: Hyrax
-  VBF38S-2X2: Wombat
-  DPCKN2-NF5: Pangolin
-  D2DG2E-DQZ: Platypus
-  G5F2NU-A3A: Okapi
-  YTCUQF-XM4: Saiga
-  SJ7QK6-R4F: Pangolin
-  NKH74F-92U: Platypus
-  EQSVXR-C6T: Saiga
-  WT4TZR-B3R: Armadillo
-  2K4AFV-GUZ: Cassowary
-  SDXU35-KKU: Hyrax
-  YTT5DJ-9VR: Wombat
-  Z9S2T8-8XQ: Pangolin
-  PYANN7-CD4: Platypus
-  4N53A7-Z4R: Okapi
-  MKQGAM-AWS: Saiga
-  AUS97P-NM9: Armadillo
-  T29ST8-F4Q: Cassowary
-  DAV4WW-BA8: Hyrax
-  BKP9YU-CS7: Wombat
-  7A2QDT-RKD: Pangolin
-  WWXV4C-88K: Platypus
-  N7WCXZ-Y9Y: Okapi
-  Y3VKJF-D4A: Saiga
-  BWJ4RW-5Q8: Armadillo
-  VHXJN9-52D: Cassowary
-  YJEH95-JPQ: Hyrax
-  A7RBNH-YZF: Wombat
-  GPAUWQ-R8E: Pangolin
-  2ZU89B-9VF: Platypus
-  FP3ANE-JEK: Okapi
-  ZUJBHC-KBZ: Saiga
-  P535GE-KY8: Armadillo
-  YKCXJ5-UKX: Cassowary
-  TK75Q6-7YJ: Hyrax
-  5U6H43-FGP: Wombat
-  4PCCCA-397: Pangolin
-  QGW2JY-6X9: Platypus
-  QFB7HE-A7D: Armadillo
+  ENS7D8-DXV:
+    Week: 1
+    TestName: Pangolin
+  EC4GJT-SMK:
+    Week: 1
+    TestName: Platypus
+  A5QMTE-D2P:
+    Week: 1
+    TestName: Okapi
+  9Z5UDF-ZEP:
+    Week: 1
+    TestName: Saiga
+  WTC3DJ-RJK:
+    Week: 1
+    TestName: Armadillo
+  JQHT63-A6A:
+    Week: 1
+    TestName: Cassowary
+  HFJPHB-FJN:
+    Week: 1
+    TestName: Hyrax
+  RVM3S9-UP8:
+    Week: 1
+    TestName: Wombat
+  9CKBRD-ZZ8:
+    Week: 1
+    TestName: Pangolin
+  X352JA-RZM:
+    Week: 1
+    TestName: Platypus
+  FUGCYF-WMS:
+    Week: 1
+    TestName: Okapi
+  58NJ7Z-URN:
+    Week: 1
+    TestName: Saiga
+  AYKGXB-JEQ:
+    Week: 1
+    TestName: Armadillo
+  5AV2J9-5BS:
+    Week: 1
+    TestName: Cassowary
+  VWDVV4-W6X:
+    Week: 1
+    TestName: Hyrax
+  KT623X-42Q:
+    Week: 1
+    TestName: Wombat
+  ATGH7Q-N52:
+    Week: 1
+    TestName: Pangolin
+  MG7RGD-9R7:
+    Week: 1
+    TestName: Platypus
+  8G8FTA-CNP:
+    Week: 1
+    TestName: Okapi
+  HH4HT2-UZB:
+    Week: 1
+    TestName: Saiga
+  QQFC4D-M62:
+    Week: 1
+    TestName: Armadillo
+  YMFFGM-A3Q:
+    Week: 1
+    TestName: Cassowary
+  VC5D8H-H53:
+    Week: 1
+    TestName: Hyrax
+  REK6D7-DGH:
+    Week: 1
+    TestName: Wombat
+  7RXR64-7DZ:
+    Week: 1
+    TestName: Pangolin
+  Q3A2XR-3VW:
+    Week: 1
+    TestName: Platypus
+  QCWCCR-7UU:
+    Week: 1
+    TestName: Okapi
+  KSJC4D-8CY:
+    Week: 1
+    TestName: Saiga
+  ASNVD5-TFY:
+    Week: 1
+    TestName: Armadillo
+  PKEQCM-UXF:
+    Week: 1
+    TestName: Cassowary
+  ZJBAVP-GPH:
+    Week: 1
+    TestName: Hyrax
+  ZTZQGJ-MQQ:
+    Week: 1
+    TestName: Wombat
+  W3PT58-PJ8:
+    Week: 1
+    TestName: Pangolin
+  8QRTD9-GGS:
+    Week: 1
+    TestName: Platypus
+  MMYQHP-QEE:
+    Week: 1
+    TestName: Okapi
+  3JJAY9-8X9:
+    Week: 1
+    TestName: Saiga
+  YJ7PGK-HKS:
+    Week: 1
+    TestName: Armadillo
+  UZRFMM-MY2:
+    Week: 1
+    TestName: Cassowary
+  TE35KB-FDA:
+    Week: 1
+    TestName: Hyrax
+  EYG9HU-UHB:
+    Week: 1
+    TestName: Wombat
+  9SNKCW-X7G:
+    Week: 1
+    TestName: Pangolin
+  5PC7A3-VTC:
+    Week: 1
+    TestName: Platypus
+  S8MADQ-BEC:
+    Week: 1
+    TestName: Okapi
+  9659ZU-ATX:
+    Week: 1
+    TestName: Saiga
+  HXBHHF-BFH:
+    Week: 1
+    TestName: Armadillo
+  4T59SN-Z8Q:
+    Week: 1
+    TestName: Cassowary
+  9T3V68-NFA:
+    Week: 1
+    TestName: Hyrax
+  HKFE5Y-QSM:
+    Week: 1
+    TestName: Wombat
+  2K4H9G-4WR:
+    Week: 1
+    TestName: Pangolin
+  WFYFRM-9QS:
+    Week: 1
+    TestName: Platypus
+  6SA5BZ-WX3:
+    Week: 1
+    TestName: Okapi
+  3BHRPM-TK9:
+    Week: 1
+    TestName: Saiga
+  H3G23A-8H4:
+    Week: 1
+    TestName: Armadillo
+  JZBZF7-KNE:
+    Week: 1
+    TestName: Cassowary
+  TVA793-Q66:
+    Week: 1
+    TestName: Hyrax
+  YXVDK8-JB4:
+    Week: 1
+    TestName: Wombat
+  4BKEYC-5TY:
+    Week: 1
+    TestName: Pangolin
+  CAXZU5-45T:
+    Week: 1
+    TestName: Platypus
+  WPJ3CB-XN8:
+    Week: 1
+    TestName: Armadillo
+  84QT7P-GSC:
+    Week: 2
+    TestName: Pangolin
+  AEEQEN-J2J:
+    Week: 2
+    TestName: Platypus
+  T6CZBD-HJB:
+    Week: 2
+    TestName: Okapi
+  3V4X72-YRF:
+    Week: 2
+    TestName: Saiga
+  4BENHU-NUN:
+    Week: 2
+    TestName: Armadillo
+  K3H7Q3-DPP:
+    Week: 2
+    TestName: Cassowary
+  M7BJS4-GTC:
+    Week: 2
+    TestName: Hyrax
+  MMVQP9-WAB:
+    Week: 2
+    TestName: Wombat
+  79Z4TZ-8CG:
+    Week: 2
+    TestName: Pangolin
+  NYCS8Y-58S:
+    Week: 2
+    TestName: Okapi
+  A9KJ7K-GQ8:
+    Week: 2
+    TestName: Hyrax
+  VBF38S-2X2:
+    Week: 2
+    TestName: Wombat
+  DPCKN2-NF5:
+    Week: 2
+    TestName: Pangolin
+  D2DG2E-DQZ:
+    Week: 2
+    TestName: Platypus
+  G5F2NU-A3A:
+    Week: 2
+    TestName: Okapi
+  YTCUQF-XM4:
+    Week: 2
+    TestName: Saiga
+  SJ7QK6-R4F:
+    Week: 2
+    TestName: Pangolin
+  NKH74F-92U:
+    Week: 2
+    TestName: Platypus
+  EQSVXR-C6T:
+    Week: 2
+    TestName: Saiga
+  WT4TZR-B3R:
+    Week: 2
+    TestName: Armadillo
+  2K4AFV-GUZ:
+    Week: 2
+    TestName: Cassowary
+  SDXU35-KKU:
+    Week: 2
+    TestName: Hyrax
+  YTT5DJ-9VR:
+    Week: 2
+    TestName: Wombat
+  Z9S2T8-8XQ:
+    Week: 2
+    TestName: Pangolin
+  PYANN7-CD4:
+    Week: 2
+    TestName: Platypus
+  4N53A7-Z4R:
+    Week: 2
+    TestName: Okapi
+  MKQGAM-AWS:
+    Week: 2
+    TestName: Saiga
+  AUS97P-NM9:
+    Week: 2
+    TestName: Armadillo
+  T29ST8-F4Q:
+    Week: 2
+    TestName: Cassowary
+  DAV4WW-BA8:
+    Week: 2
+    TestName: Hyrax
+  BKP9YU-CS7:
+    Week: 2
+    TestName: Wombat
+  7A2QDT-RKD:
+    Week: 2
+    TestName: Pangolin
+  WWXV4C-88K:
+    Week: 2
+    TestName: Platypus
+  N7WCXZ-Y9Y:
+    Week: 2
+    TestName: Okapi
+  Y3VKJF-D4A:
+    Week: 2
+    TestName: Saiga
+  BWJ4RW-5Q8:
+    Week: 2
+    TestName: Armadillo
+  VHXJN9-52D:
+    Week: 2
+    TestName: Cassowary
+  YJEH95-JPQ:
+    Week: 2
+    TestName: Hyrax
+  A7RBNH-YZF:
+    Week: 2
+    TestName: Wombat
+  GPAUWQ-R8E:
+    Week: 2
+    TestName: Pangolin
+  2ZU89B-9VF:
+    Week: 2
+    TestName: Platypus
+  FP3ANE-JEK:
+    Week: 2
+    TestName: Okapi
+  ZUJBHC-KBZ:
+    Week: 2
+    TestName: Saiga
+  P535GE-KY8:
+    Week: 2
+    TestName: Armadillo
+  YKCXJ5-UKX:
+    Week: 2
+    TestName: Cassowary
+  TK75Q6-7YJ:
+    Week: 2
+    TestName: Hyrax
+  5U6H43-FGP:
+    Week: 2
+    TestName: Wombat
+  4PCCCA-397:
+    Week: 2
+    TestName: Pangolin
+  QGW2JY-6X9:
+    Week: 2
+    TestName: Platypus
+  QFB7HE-A7D:
+    Week: 2
+    TestName: Armadillo

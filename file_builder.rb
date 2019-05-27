@@ -5,7 +5,7 @@ require 'yaml'
 GOLDEN_DIR = 'golden'.freeze
 RESPONSES_DIR = 'responses'.freeze
 
-LANGUAGES = { javascript: :js, python: :py, ruby: :rb}.freeze
+LANGUAGES = { javascript: :js, python: :py, ruby: :rb }.freeze
 
 TESTS = YAML.load(File.read('tests.yml'))
 TEST_IDS = TESTS['test_ids']
