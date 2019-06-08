@@ -1,9 +1,3 @@
 # Feedback
 
-## 1.
-
-## 2.
-
-## 3.
-
-
+Interesting usage of the Counter class, but it's a bit overkill.

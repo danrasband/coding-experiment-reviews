@@ -1,9 +1,9 @@
 # Feedback
 
-## 1.
+Your solution to the first problem works, but it's a bit inefficient. You can
+combine the counting and max-finding into one loop.
 
-## 2.
+I like your math-based approach to the second problem.
 
-## 3.
-
-
+Your last solution was on the right track. Given a bit more time, you probably
+would've gotten it.

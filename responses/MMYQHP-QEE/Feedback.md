@@ -1,9 +1,4 @@
 # Feedback
 
-## 1.
-
-## 2.
-
-## 3.
-
-
+Good attempts for the time provided! Make sure you understand the problems
+fully.
